@@ -1,66 +1,23 @@
-## Foundry
+# AssetsAccess Smart Contract
 
-**Foundry is a blazing fast, portable and modular toolkit for Ethereum application development written in Rust.**
+This repository hosts the code for the **AssetsAccess Smart Contract**, designed to facilitate access to fractionalized global properties. The smart contract enables users to securely own and trade shares of digital real estate assets, democratizing investment opportunities.
 
-Foundry consists of:
+## Technologies Used
 
--   **Forge**: Ethereum testing framework (like Truffle, Hardhat and DappTools).
--   **Cast**: Swiss army knife for interacting with EVM smart contracts, sending transactions and getting chain data.
--   **Anvil**: Local Ethereum node, akin to Ganache, Hardhat Network.
--   **Chisel**: Fast, utilitarian, and verbose solidity REPL.
+- **Solidity**: The primary programming language for writing smart contracts on the Ethereum blockchain.
+- **Foundry**: A toolkit for Ethereum application development that includes tools for building, testing, and deploying contracts.
 
-## Documentation
+## Key Features
 
-https://book.getfoundry.sh/
+- **Fractional Ownership**: Allows users to own fractions of high-value global properties.
+- **Secure Transactions**: Built with security best practices to protect user assets.
+- **Easy Integration**: Designed to work seamlessly with the AssetsAccess platform.
 
-## Usage
+## Installation and Setup
 
-### Build
+To get started with the smart contract, clone the repository and install the necessary dependencies:
 
-```shell
-$ forge build
-```
+```bash
+git clone https://github.com/assetsaccess/smartcontract.git
+cd smartcontract
 
-### Test
-
-```shell
-$ forge test
-```
-
-### Format
-
-```shell
-$ forge fmt
-```
-
-### Gas Snapshots
-
-```shell
-$ forge snapshot
-```
-
-### Anvil
-
-```shell
-$ anvil
-```
-
-### Deploy
-
-```shell
-$ forge script script/Counter.s.sol:CounterScript --rpc-url <your_rpc_url> --private-key <your_private_key>
-```
-
-### Cast
-
-```shell
-$ cast <subcommand>
-```
-
-### Help
-
-```shell
-$ forge --help
-$ anvil --help
-$ cast --help
-```
